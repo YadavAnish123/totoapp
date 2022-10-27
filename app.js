@@ -36,6 +36,5 @@ app.get('/List_of_Tasks', (req, res)=>{
 
 
 // START THE SERVER
-app.listen(port, ()=>{
-    console.log(`The application started successfully on port ${port}`);
-});
+app.listen(process.env.PORT || 3000, 
+	() => console.log("Server is running..."));
