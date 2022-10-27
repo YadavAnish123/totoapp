@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+ }
+ body::before{
+    opacity: 0.5;
+    content: "";
+    width: 100%;
+    height: 800px;
+    z-index: -1;
+    top: 0px;
+    position: absolute;
+    background-color: rgb(189, 119, 27);
+    background: url('static\\pexels-tejas-prajapati-586744.jpg') no-repeat center center;
+    background-size: 1500px 500px cover;
+     
+ }
+   
+ #navbar{
+     
+    width:600px;
+    height:350px;
+    /* border: 2px solid black; */
+    margin-left: 300px;
+ }
+ #navbar li{
+     
+    list-style: none;
+   padding: 3px 12px;
+      
+     
+      
+
+ }
+ #navbar li a{
+     display:block;
+     justify-content: center;
+     text-align: center;
+     margin: 20px 15px;
+     background-color: aquamarine;
+     border: 2px solid black;
+     text-decoration: none;
+      
+   font-weight: bold;
+     
+     
+
+ }
+ 
+#navbar li a:hover{
+     background-color:aliceblue;
+}
+#work{
+    background-color: rgb(225, 13, 13);
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+    font-size: 2rem;
+     
+
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+   justify-content: center;
+   text-align: center;
+    color: #fff;
+}
+
+ 

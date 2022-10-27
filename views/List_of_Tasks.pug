@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title Anish Dance Academy
+    style
+      include ../static/style3.css
+  body
+    nav#work
+      div MyTodo
+    nav#navbar
+      ul
+        li #[a(href="/Add_Task") Add_Task] 
+        li #[a(href="/") Delete_Task]
+        li #[a(href="/") Mark_as_Completed] 
+        li #[a(href="/List_of_Tasks") List_of_Tasks] 
+        li #[a(href="/") List_of_Pending_Tasks]
+    section#HeadTask
+        h1 Your Tasks are.. 
+    section#Task
+        div # #{data}
+         
+         
+           
+         
