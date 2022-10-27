@@ -4,7 +4,7 @@
   "description": "MyApp",
   "main": "app.js",
   "scripts": {
-    "start": "node index.js"},
+    "start": "node app.js"},
   "author": "ANISH KUMAR",
   "license": "ISC",
   "dependencies": {
